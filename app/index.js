@@ -161,7 +161,7 @@ class MusicApp extends Component {
                                 transform: [{ translateY: this.buttonY }]
                             }}
                         >
-                            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>LOGAR</Text>
+                            <Text style={{ fontSize: 20, fontWeight: 'bold' }}>LOGIN</Text>
                         </Animated.View>
                     </TapGestureHandler>
                     <Animated.View
@@ -182,7 +182,7 @@ class MusicApp extends Component {
                             </Animated.View>
                         </TapGestureHandler>
                         <TextInput placeholder="E-MAIL" style={styles.textInput} placeholderTextColor="black" />
-                        <TextInput placeholder="SENHA" style={styles.textInput} placeholderTextColor="black" />
+                        <TextInput placeholder="PASSWORD" style={styles.textInput} placeholderTextColor="black" />
                         <Animated.View style={styles.button} >
                             <Text style={{ fontSize: 20, fontWeight: 'bold' }}>
                                 LOGIN
@@ -207,7 +207,7 @@ class MusicApp extends Component {
                                             tintColors={ true? 'white': 'white' }
                                         />
                                         <Text style={{ fontSize: 11, fontWeight: 'bold', }}>
-                                            SAVE PASSWORD
+                                            SAVE PASSW
                                         </Text>
                                     </Animated.View>                                
                             </View>
@@ -215,7 +215,7 @@ class MusicApp extends Component {
                                 <TapGestureHandler onHandlerStateChange={this.rememberPassword}>
                                     <Animated.View style={styles.buttonRodape} >
                                         <Text style={{ fontSize: 11, fontWeight: 'bold' }}>                                            
-                                            RECOVER PASSWORD                                            
+                                            RECOVER PASSW                                            
                                         </Text>
                                     </Animated.View>
                                 </TapGestureHandler>
